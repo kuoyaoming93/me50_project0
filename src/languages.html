@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Page title -->
+        <title>Kuo's webpage</title>
+
+        <!-- Bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <!-- JQuery and Popper.JS scripts for Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        
+        <link rel="stylesheet" href="../styles/page_styles.css">
+    </head>
+    <body>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #400080;">
+            <a class="navbar-brand" href="./index.html">
+                <img src="../img/page-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+
+            <button class="collapsed navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./images.html">Media Gallery</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Languages & Hobbies<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>        
+
+
+        <!-- My Languages and hobbies -->
+        <h2>
+            <span id="full-text">I can speak the following languages:</span>
+            <span id="short-text">I can speak:</span>
+        </h2> 
+        
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Languague</th>
+                <th scope="col">Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Chinese</td>
+                <td>Native Languague</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Spanish</td>
+                <td>Native Languague</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>English</td>
+                <td>Advance B2</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>German</td>
+                <td>Advance B2</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <!-- My skills -->
+        <h2>My Skills:</h2>
+        <div id="rect-skills">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item skill-item">Matlab</li>
+                <li class="list-group-item skill-item">C/C++</li>
+                <li class="list-group-item skill-item">Python</li>
+                <li class="list-group-item skill-item">Verilog / VHDL</li>
+                <li class="list-group-item skill-item">Git</li>
+                <li class="list-group-item skill-item">Altium / Kicad</li>
+                <li class="list-group-item skill-item">Wordpress</li>
+            </ul>
+        </div>
+
+        <!-- My hobbies -->
+        <h2>My Hobbies:</h2>
+        <div id="rect-skills">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item hobby-item">Table Tennis</li>
+                <li class="list-group-item hobby-item">Travel</li>
+                <li class="list-group-item hobby-item">Movies</li>
+            </ul>
+        </div>
+
+    </body>
+</html>

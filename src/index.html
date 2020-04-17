@@ -12,15 +12,15 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         
-        
-        <link rel="stylesheet" href="./page_styles.css">
+        <link rel="stylesheet" href="../styles/page_styles.css">
     </head>
     <body>
+        
 
         <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #400080;">
             <a class="navbar-brand" href="#">
-                <img src="./img/page-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="../img/page-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
             </a>
 
             <button class="collapsed navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,25 +30,42 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="./images.html">Media Gallery</a>
                     </li>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Languagues<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./languages.html">Languages & Hobbies</a>
                     </li>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./hobbies.html">Hobbies</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                     
                 </ul>
             </div>
-        </nav>        
+        </nav>
+        
+
+        <!-- My info -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm col-lg col-item">
+                    <img src="../img/profile.png" class="img-fluid rounded float" id="profile-image" alt="Profile photo">
+                </div>
+                <div class="col-sm col-lg">
+                    <div id="rect">
+                        <div id="rect-item"><p><span>Hello! Welcome to my website!</span></p><p>My name is Yao-Ming Kuo. I'm from Taiwan but living in Argentina since I was 5 years old.</p> 
+                            <p>Graduated as electronic engineer and working now as PhD student at Antonio de Nebrija University located in Madrid.</p> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
     </body>
 </html>
