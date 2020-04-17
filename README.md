@@ -22,4 +22,4 @@
 * /src/languages.html: My languages and hobbies.
 * /src/contact.html: Contact me form.
 * /styles/page_styles.css: Page styles
-* * /styles/page_styles.scss: Page styles (Sass)
+* /styles/page_styles.scss: Page styles (Sass)
