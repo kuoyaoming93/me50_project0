@@ -1,0 +1,101 @@
+/******************************************************************
+******************************************************************* 
+                            All pages
+*******************************************************************
+******************************************************************/
+body, #rect-item {
+  background-color: #ffffcc; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.row, .col {
+  align-items: center; }
+
+p > span {
+  background-color: DodgerBlue;
+  color: white; }
+
+/******************************************************************
+******************************************************************* 
+                            index.html
+*******************************************************************
+******************************************************************/
+#rect {
+  background-color: green;
+  border-radius: 50px;
+  padding: 20px; }
+
+#rect-item {
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 2px dashed #f69c55; }
+
+#profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
+
+/******************************************************************
+******************************************************************* 
+                            images.html
+*******************************************************************
+******************************************************************/
+@media (min-width: 600px) {
+  #image-gallery {
+    background-color: red; } }
+@media (max-width: 599px) {
+  #image-gallery {
+    background-color: blue; } }
+#image-gallery {
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto; }
+
+#image-gallery image-box-item {
+  width: 500px;
+  text-align: center; }
+
+/******************************************************************
+******************************************************************* 
+                            languages.html
+*******************************************************************
+******************************************************************/
+@media (min-width: 600px) {
+  #short-text {
+    display: none; }
+
+  #full-text {
+    display: inline-block; } }
+@media (max-width: 599px) {
+  #short-text {
+    display: inline-block; }
+
+  #full-text {
+    display: none; } }
+.skill-item, .hobby-item {
+  text-align: center; }
+
+#rect-skills {
+  background-color: #80004b;
+  border-radius: 50px;
+  padding: 40px; }
+
+#rect-skills .skill-item {
+  background-color: #b094e4; }
+
+#rect-skills .hobby-item {
+  background-color: #74aaf0; }
+
+#form-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+/*# sourceMappingURL=page_styles.css.map */
